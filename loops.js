@@ -9,6 +9,10 @@ function forLoop(array) {
 return array;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1f1a4bb972c66b699fc4e625d3fbdf86d702b299
 function whileLoop(n) {
   while (n > 0) {
     console.log(--n)
@@ -16,6 +20,7 @@ function whileLoop(n) {
 return 'done';
 }
 
+<<<<<<< HEAD
 function doWhileLoop(array) {
   function maybeTrue() {
     return Math.random() >= 0.5;
@@ -25,3 +30,15 @@ function doWhileLoop(array) {
   } while (array.length = 0 && maybeTrue());
     return array;
 }
+=======
+const newArray = doWhileLoop(array);
+const l = array.length;
+function doWhileLoop(array) {
+  return Math.random() >= 0.5;
+}
+do {
+  l--;
+  l <= 1;
+} while ((array.length > 0 && maybeTrue()) || maybeTrue() !== true);
+console.log(newArray);
+>>>>>>> 1f1a4bb972c66b699fc4e625d3fbdf86d702b299
