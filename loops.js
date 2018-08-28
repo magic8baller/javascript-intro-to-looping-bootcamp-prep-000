@@ -16,3 +16,15 @@ function whileLoop(num) {
   }
   return 'done';
 }
+
+
+function doWhileLoop() {
+  let i = 0;
+   function incrementVariable() {
+     i++;
+   }
+   do {
+     return array;
+     --i;
+   } while (array.length && !incrementVariable());
+}
